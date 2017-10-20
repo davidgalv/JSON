@@ -1,0 +1,132 @@
+{
+	"actividades": [{
+		"talleres": {
+			"autoestima": {
+				"edicion 1": {
+					"lugar": "sevilla",
+					"fecha": "20/1/2017",
+					"responsable": "laura",
+					"codigo": "AE17001"
+				},
+				"edicion 2": {
+					"lugar": "cordoba",
+					"fecha": "24/1/2016",
+					"responsables": [{
+						"nombre 0": "Elina",
+						"nombre 1": "Teresa",
+						"nombre 2": "Alfonso"
+					}],
+					"codigo": "AE17002"
+				}
+			},
+			"defensa personal": {
+				"edicion 1": {
+					"lugar": "huelva",
+					"fecha": "16/1/2016",
+					"responsable": "miguel",
+					"codigo": "DP17001"
+				},
+				"edicion 2": {
+					"lugar": "cadiz",
+					"fecha": "22/1/2017",
+					"responsable": "Tania",
+					"codigo": "DP17002"
+				},
+				"edicion 3": {
+					"lugar": "malaga",
+					"fecha": "4/2/2017",
+					"responsables": [{
+						"nombre 0": "Miguel",
+						"nombre 1": "Rosa"
+					}],
+					"codigo": "DP17003"
+				}
+			},
+			"marco legal": {
+				"edicion 1": {
+					"lugar": "sevilla",
+					"fecha": "11/2/2017",
+					"responsable": "sofia",
+					"codigo": "ML17001"
+				},
+				"edicion 2": {
+					"lugar": "granada",
+					"fecha": "19/2/2017",
+					"responsables": [{
+						"nombre 0": "Ramón",
+						"nombre 1": "Laura"
+					}],
+					"codigo": "ML17002"
+				}
+			}
+		}
+	},
+	{
+		"salud": {
+			"reconocimiento médico": {
+				"edicion 1": {
+					"lugar": "almeria",
+					"fecha": "5/2/2017",
+					"responsables": [{
+						"nombre 0": "Sara",
+						"nombre 1": "Luis"
+					}],
+					"codigo": "RM17001"
+				},
+				"edicion 2": {
+					"lugar": "cadiz",
+					"fecha": "1/3/2017",
+					"responsable": "Sara",
+					"codigo": "RM17002"
+				}
+			},
+			"test vih": {
+				"edicion": {
+					"lugar": "malaga",
+					"fecha": "5/3/2017",
+					"responsable": "alfonso",
+					"codigo": "TS17001"
+				}
+			}
+		}
+	},
+	{
+		"concienciacion": {
+			"exposición imágenes": {
+				"edicion 1": {
+					"lugar": "cordoba",
+					"fecha": "10/1/2017",
+					"responsable": "Laura",
+					"codigo": "EX17001"
+				},
+				"edicion 2": {
+					"lugar": "jaen",
+					"fecha": "10/2/2017",
+					"responsables": [{
+						"nombre 0": "Elena",
+						"nombre 1": "Sara"
+					}],
+					"codigo": "EX17002"
+				},
+				"edicion 3": {
+					"lugar": "almeria",
+					"fecha": "11/3/2017",
+					"responsable": "Teresa",
+					"codigo": "EX17003"
+				}
+			},
+			"flashmob": {
+				"edicion": {
+					"lugar": "sevilla",
+					"fecha": "15/1/2017",
+					"responsables": [{
+						"nombre 0": "Sofia",
+						"nombre 1": "Miguel",
+						"nombre 2": "Rosa"
+					}],
+					"codigo": "FM17001"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actividades>
+	<talleres>
+		<autoestima>
+			<edicion numero="0">
+				<lugar>Sevilla</lugar>
+				<fecha>20/1/2017</fecha>
+				<responsable>Laura</responsable>
+				<codigo>AE17001</codigo>
+			</edicion>
+			<edicion numero="1">
+				<lugar>Córdoba</lugar>
+				<fecha>24/1/2016</fecha>
+				<responsables>
+					<responsable numero="0">Elina</responsable>
+					<responsable numero="1">Teresa</responsable>
+					<responsable numero="2">Alfonso</responsable>
+				</responsables>
+			</edicion>
+		</autoestima>
+		<defensa_personal>
+			<edicion numero="0">
+				<lugar>Huelva</lugar>
+				<fecha>16/1/2016</fecha>
+				<responsable>Miguel</responsable>
+				<codigo>DP17001</codigo>
+			</edicion>
+			<edicion numero="1">
+				<lugar>Cádiz</lugar>
+				<fecha>22/1/2017</fecha>
+				<responsables>Tania</responsables>
+				<codigo>DP17002</codigo>
+			</edicion>
+		</defensa_personal>
+		<marco_legal>
+		
+		</marco_legal>
+	</talleres>
+	<salud>
+		<reconocimiento_medico>
+		
+		</reconocimiento_medico>
+		<test_vih>
+		
+		</test_vih>
+	</salud>
+	<concienciacion>
+		<exposicion_imagenes>
+		
+		</exposicion_imagenes>
+		<flashmob>
+		
+		</flashmob>
+	</concienciacion>
+</actividades>

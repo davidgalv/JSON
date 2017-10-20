@@ -1,0 +1,47 @@
+{
+	"factura": [{
+		"datos": [{
+			"titular": "Daniel Hernández Hernández",
+			"NIF": "20248979W",
+			"dirección": "C/ Almendrez 5, 2º, 4",
+			"producto": "Tarifa One Gas",
+			"tipo gas": "Gas natural",
+			"CUPS": "ES0218030024126625HT",
+			"numero contador": "999124509",
+			"referencia": "12100130431",
+			"comercializadora": "Endesa Energía S.A.U.",
+			"peaje de acceso": "3.2P"
+		}],
+		"detalles": [{
+			"Gas natural": [{
+				"repercusión canon IRC": "10,10€",
+				"termino energia gas": [{
+					"calculo": "-107 KWh x 0,043572 €/KWh",
+					"dinero": "-4,66"
+				}],
+				"termino fijo": [{
+					"calculo": "62 dias x 0,277808 €/dia",
+					"dinero": "17,22€"
+				}],
+				"% descuento promocional": [{
+					"calculo": "12,56€ x -9,56%",
+					"dinero": "-1,13€"
+				}],
+				"Alq. de equipos gas": "2,57€",
+				"gastos insp. periodica iri": "12,80€",
+				"gastos insp. fisica iri": "27,15€",
+				"interes regulariz. cons. real": "-0,05€",
+				"impto.hc general": [{
+					"calculo": "-107 KWh x 0,00234 €/KWh",
+					"dinero": "-0,25"
+				}],
+				"importe total": "63,75€",
+				"IVA": [{
+					"calculo": "Normal 21% sobre 63,80",
+					"dinero": "13,40€"
+				}],
+				"total importe factura": "77,15€"
+			}]
+		}]
+	}]
+}

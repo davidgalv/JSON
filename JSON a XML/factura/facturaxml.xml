@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+	<datos>
+		<titular>Daniel Hernández Hernández</titular>
+		<NIF>20248979W</NIF>
+		<direccion>Calle Almendrez 5, 2º, 4</direccion>
+		<producto>Tarifa One Gas</producto>
+		<tipo_gas>Gas Natural</tipo_gas>
+		<CUPS>ES021803002412662SHT</CUPS>
+		<numero_contador>999124509</numero_contador>
+		<referencia>12100130431</referencia>
+		<comercializadora>Endesa Energía S.A.U.</comercializadora>
+		<peaje_acceso>3.2P</peaje_acceso>
+	</datos>
+	<detalles>
+		<Gas_natural>
+			<repercusión_canon_IRC>10,10€</repercusión_canon_IRC>
+			<termino_energia_gas>
+				<calculo>-107 KWh x 0,043572 €/KWh</calculo>
+				<dinero>-4,66€</dinero>
+			</termino_energia_gas>
+			<termino_fijo>
+				<calculo>62 dias x 0,277808 €/dia</calculo>
+				<dinero>17,22€</dinero>
+			</termino_fijo>
+			<descuento_promocional>
+				<calculo>12,56€ x -9,56%</calculo>
+				<dinero>-1,13€</dinero>
+			</descuento_promocional>
+			<alq._equipos_gas>2,57€</alq._equipos_gas>
+			<gastos_insp_periodica>12,60€</gastos_insp_periodica>
+			<gastos_insp_fisica>27,15€</gastos_insp_fisica>
+			<interes_regulariz_cons_real>-0,05</interes_regulariz_cons_real>
+			<impto.hc_general>
+				<calculo>-107 KWh x 0,00234 €/KWh</calculo>
+				<dinero>-0,25</dinero>
+			</impto.hc_general>
+			<importe_total>63,75€</importe_total>
+			<IVA>
+				<calculo>Normal 21% sobre 63,80</calculo>
+				<dinero>13,40€</dinero>
+			</IVA>
+			<total_importe_factura>77,15€</total_importe_factura>
+		</Gas_natural>
+	</detalles>
+</factura>

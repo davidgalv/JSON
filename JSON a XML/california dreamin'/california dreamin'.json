@@ -1,0 +1,13 @@
+{
+	"escapada": [{
+		"encargados": [{
+			"Lina": [{
+				"tareas": [{
+					"viaje": "Revisar la furgoneta",
+					"barbacoa": "Verduras y salsa",
+					"alojamiento": "Gestionar reserva, quedar con el propietario y obtener la ubicacion"
+				}]
+			}]
+		}]
+	}]
+}

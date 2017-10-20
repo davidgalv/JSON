@@ -1,0 +1,20 @@
+{
+	"series": [{
+		"@serie": "0",
+		"#nombre": "Juego de Tronos",
+		"#creador": "David Benioff",
+		"#duracion": "50 minutos"
+	},
+	{
+		"@serie": "1",
+		"#nombre": "The Walking Dead",
+		"#creador": "Frank Darabont",
+		"#duracion": "40 minutos"
+	},
+	{
+		"@serie": "2",
+		"#nombre": "Breaking Bad",
+		"#creador": "Vince Gilligan",
+		"#duracion": "50 minutos"
+	}]
+}
