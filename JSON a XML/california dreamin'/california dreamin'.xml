@@ -5,15 +5,25 @@
 			<nombre>Lina</nombre>
 			<tareas>
 				<viaje>Revisar la furgoneta</viaje>
-				<barbacoa>Verduras, Salsa</barbacoa>
-				<alojamiento>Gestionar reserva, quedar con el propietario, obtener la ubicación</alojamiento>
+				<barbacoa>
+					<tarea numero="0">Verduras</tarea>
+					<tarea numero="1">Salsa</tarea>
+				</barbacoa>
+				<alojamiento>
+					<tarea numero="0">Gestionar reserva</tarea>
+					<tarea numero="1">Quedar con el propietario</tarea>
+					<tarea numero="2">Obtener la ubicación</tarea>
+				</alojamiento>	
 			</tareas>
 		</encargado>
 		<encargado numero="1">
 			<nombre>Mauricio</nombre>
 			<tareas>
 				<surf>Buscar spots cercanos</surf>
-				<barbacoa>Carbón, pastillas para encender</barbacoa>
+				<barbacoa>
+					<tarea numero="0">Carbón</tarea>
+					<tarea numero="1">Pastillas para encender</tarea>
+				</barbacoa>
 				<alojamiento>Sábanas</alojamiento>
 			</tareas>
 		</encargado>
@@ -22,7 +32,10 @@
 			<tareas>
 				<viaje>Limpiar la furgo al final</viaje>
 				<surf>Mirar previsión</surf>
-				<alojamiento>Toallas, sábanas</alojamiento>
+				<alojamiento>
+					<tarea numero="0">Toallas</tarea>
+					<tarea numero="1">Sábanas</tarea>
+				</alojamiento>
 			</tareas>
 		</encargado>
 		<encargado numero="3">
