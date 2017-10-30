@@ -6,7 +6,7 @@
 					"actividad": "viaje", 
 					"cometido": "Revisar la furgoneta"
 				}, {
-					"actividad": "barbacoa"
+					"actividad": "barbacoa",
 					"cometido": [{
 							"@tarea": 0,
 							"#text": "Verduras"
@@ -22,31 +22,40 @@
 						}, {
 							"@tarea": 1,
 							"#text": "Obtener la ubicación"
-						}
-					]
-				}
-			}
+						}]
+					}	
+				]
 	}, {
 		"nombre": "Mauricio",
 		"tareas": [{
-				"surf": "Buscar spots cercanos",
-				"barbacoa": [{
+				"actividad": "surf",
+				"cometido": "Buscar spots cercanos"
+			}, {	
+				"actividad": "barbacoa",
+				"cometido": [{
 						"@tarea": 0,
 						"#text": "Carbón"
 					}, {
 						"@tarea": 1,
 						"#text": "Pastillas para encender"
 					}
-				],
-				"alojamiento": "Sábanas"
-			}
+				]
+			}, {	
+				"actividad": "alojamiento",
+				"cometido": "sábanas"
+				}
 		]
 	}, {
 		"nombre": "Esteban",
 		"tareas": [{
-				"viaje": "Limpiar al furgo al final",
-				"surf": "Mirar previsión",
-				"alojamiento": [{
+				"actividad": "viaje",
+				"cometido": "Limpiar la furgo al final"
+				}, {
+				"actividad": "surf",
+				"cometido": "Mirar la previsión"
+				}, {
+				"actividad": "alojamiento",
+				"cometido":	[{
 						"@tarea": 0,
 						"#text": "Toallas"
 					}, {
@@ -59,10 +68,17 @@
 	}, {
 		"nombre": "Elena",
 		"tareas": [{
-				"viaje": "Preparar GPS",
-				"surf": "Tablas",
-				"barbacoa": "Carne",
-				"alojamiento": [{
+				"actividad": "viaje",
+				"cometido": "Preparar GPS"
+			}, {	
+				"actividad": "surf",
+				"cometido": "Tablas"
+			}, {	
+				"actividad": "barbacoa",
+				"cometido": "Carne"
+			}, {	
+				"actividad": "alojamiento",
+				"cometido": [{
 						"@tarea": 0,
 						"#text": "Localizar tiendas cercanas"
 					}, {
@@ -75,13 +91,20 @@
 	}, {
 		"nombre": "Rosa",
 		"tareas": [{
-				"viaje": "Gestionar el dinero",
-				"barbacoa": "Pan",
-				"surf": "tablas",
-				"alojamiento": "Gestionar reserva"
-			}
-		]
-	}
+				"actividad": "viaje",
+				"cometido": "Gestionar el dinero"
+				}, {
+				"actividad": "barbacoa",
+				"cometido": "Pan"
+				}, {
+				"actividad": "surf",
+				"cometido": "tablas"
+				}, {
+				"actividad": "alojamiento",
+				"cometido": "Gestionar reserva"
+				}
+			]
+		}
 	]
-	}
-	}
+}
+
