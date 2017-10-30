@@ -1,13 +1,87 @@
 {
-	"escapada": [{
-		"encargados": [{
-			"Lina": [{
-				"tareas": [{
-					"viaje": "Revisar la furgoneta",
-					"barbacoa": "Verduras y salsa",
-					"alojamiento": "Gestionar reserva, quedar con el propietario y obtener la ubicacion"
-				}]
-			}]
-		}]
-	}]
-}
+	"escapada":
+	[{
+			"nombre": "Lina",
+			"tareas": [{
+					"actividad": "viaje", 
+					"cometido": "Revisar la furgoneta"
+				}, {
+					"actividad": "barbacoa"
+					"cometido": [{
+							"@tarea": 0,
+							"#text": "Verduras"
+						}, {
+							"@tarea": 1,
+							"#text": "Salsa"
+						}
+					]
+				}, {
+					"alojamiento": [{
+							"@tarea": 0,
+							"#text": "Quedar con el propietario"
+						}, {
+							"@tarea": 1,
+							"#text": "Obtener la ubicación"
+						}
+					]
+				}
+			}
+	}, {
+		"nombre": "Mauricio",
+		"tareas": [{
+				"surf": "Buscar spots cercanos",
+				"barbacoa": [{
+						"@tarea": 0,
+						"#text": "Carbón"
+					}, {
+						"@tarea": 1,
+						"#text": "Pastillas para encender"
+					}
+				],
+				"alojamiento": "Sábanas"
+			}
+		]
+	}, {
+		"nombre": "Esteban",
+		"tareas": [{
+				"viaje": "Limpiar al furgo al final",
+				"surf": "Mirar previsión",
+				"alojamiento": [{
+						"@tarea": 0,
+						"#text": "Toallas"
+					}, {
+						"@tarea": 1,
+						"#text": "Sábanas"
+					}
+				]
+			}
+		]
+	}, {
+		"nombre": "Elena",
+		"tareas": [{
+				"viaje": "Preparar GPS",
+				"surf": "Tablas",
+				"barbacoa": "Carne",
+				"alojamiento": [{
+						"@tarea": 0,
+						"#text": "Localizar tiendas cercanas"
+					}, {
+						"@tarea": 1,
+						"#text": "Localizar sitios de interés"
+					}
+				]
+			}
+		]
+	}, {
+		"nombre": "Rosa",
+		"tareas": [{
+				"viaje": "Gestionar el dinero",
+				"barbacoa": "Pan",
+				"surf": "tablas",
+				"alojamiento": "Gestionar reserva"
+			}
+		]
+	}
+	]
+	}
+	}
